@@ -1,0 +1,17 @@
+#curr-page{
+    background-color: aqua;
+    border-radius: 100px;
+    padding: 2px;
+}
+.navlink{
+    margin-left: 5px;
+}
+.navlink:hover{
+    transform: translateY(-2.2px);
+}
+.navlink:active,.navlink:visited{
+    transform: translateY(-1px);
+}
+nav{
+    z-index: 100;
+}

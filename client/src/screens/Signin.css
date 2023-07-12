@@ -1,0 +1,50 @@
+.my-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    height: 80vh;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right bottom, rgba(171, 251, 251, 0.769), rgb(1, 76, 81));
+    box-shadow: 0 0 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 3px;
+}
+.error{
+    font-size: 15px;
+    margin: 5px;
+    color: rgb(96, 0, 0);
+    line-height: 1;
+    height: 15px;
+    
+}
+@media(max-width:1100px) {
+
+
+    .form {
+        height: 80vh;
+        width: 80vw;
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+@media(max-height:500px) {
+    
+    .form {
+        font-size: 15px;
+        height: 380px;
+        margin-top: 3px;
+        width: 80vw;
+    }
+}
